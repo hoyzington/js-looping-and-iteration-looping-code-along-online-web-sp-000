@@ -16,8 +16,8 @@ function countDown(n) {
 }
 
 function countDown(n) {
-  while (n >= 0) {
-    console.log(n);
-    n--;
-  }
+  do {
+  i += 1;
+  console.log(i);
+} while (i < 5);
 }
