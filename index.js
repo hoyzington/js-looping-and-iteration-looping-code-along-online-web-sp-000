@@ -10,7 +10,7 @@ function writeCards(names, event) {
 
 function countDown(n) {
   while (n >= 0) {
-    log.console(n);
+    console.log(n);
     n--;
   }
 }
