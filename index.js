@@ -14,3 +14,10 @@ function countDown(n) {
     n--;
   }
 }
+
+function countDown(n) {
+  while (n >= 0) {
+    console.log(n);
+    n--;
+  }
+}
